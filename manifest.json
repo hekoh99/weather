@@ -1,7 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "snowy screen",
+    "name": "weather animation",
+    "description": "make your screen display weather",
     "version": "1.0",
-    "description": "make your screen snow"
-  }
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        
+      }
+    },
+    "icons": {
+      
+    },
+    "options_page": "options.html"
+}
   
