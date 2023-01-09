@@ -18,7 +18,10 @@
       }
     },
     "icons": {
-      
+      "16": "/icons/weather-16.png",
+      "32": "/icons/weather-32.png",
+      "64": "/icons/weather-64.png",
+      "128": "/icons/weather-128.png"
     },
     "options_page": "options.html"
 }
