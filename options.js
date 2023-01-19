@@ -9,7 +9,7 @@ let page = document.getElementById("buttonDiv");
 // CSS 클래스명
 let selectedClassName = "current";
 // 제공할 날씨 목록
-const presetButtonColors = ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"];
+const presetWeathers = [];
 
 /**
  * @param {object} event - 이벤트
