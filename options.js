@@ -9,7 +9,7 @@ let page = document.getElementById("buttonDiv");
 // CSS 클래스명
 let selectedClassName = "current";
 // 제공할 날씨 목록
-const presetWeathers = [];
+const presetWeathers = ["snow", "rain"];
 
 /**
  * @param {object} event - 이벤트
