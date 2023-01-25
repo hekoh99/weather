@@ -8,5 +8,5 @@ let weather = "snow";
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.set({ weather });
-  console.log("기본 배경은 %cgreen", `color: ${weather}`);
+  console.log("기본 배경은 %c", `color: ${weather}`);
 });
