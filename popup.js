@@ -5,7 +5,7 @@
 **/
 
 // changeColor ID element 를 취득
-let changeColor = document.getElementById("changeWeather");
+let changeColor =  document.getElementsByClassName("changeWeather");
 
 // 스토리지에 저장되어 있는 컬러가 있다면 표시
 chrome.storage.sync.get("color", ({ color }) => {
