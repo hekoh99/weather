@@ -8,8 +8,9 @@
 let changeColor =  document.getElementsByClassName("changeWeather");
 
 // 스토리지에 저장되어 있는 컬러가 있다면 표시
-chrome.storage.sync.get("color", ({ color }) => {
-  changeColor.style.backgroundColor = color;
+chrome.storage.sync.get("weather", ({ weather }) => {
+  // changeColor.style.backgroundColor = weather;
+  console.log(weather);
 });
 
 /**
