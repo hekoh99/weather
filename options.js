@@ -23,9 +23,12 @@ function handleButtonClick(event) {
     current.classList.remove(selectedClassName);
   }
 
-  let color = event.target.dataset.color;
+  // let color = event.target.dataset.color;
+  // event.target.classList.add(selectedClassName);
+  // chrome.storage.sync.set({ color });
+  let weather = event.target.dataset.weather;
   event.target.classList.add(selectedClassName);
-  chrome.storage.sync.set({ color });
+  chrome.storage.sync.set({ weather });
 }
 
 /**
